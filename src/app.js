@@ -6,3 +6,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     <img src="${nyancat}"/> 
     `
 }) //DOM이 만들어졌을때 img src를 넣어준다.
+
+console.log(process.env.NODE_ENV);
+console.log(TWO);//1+1
+console.log(api.domain)
